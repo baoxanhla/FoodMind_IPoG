@@ -1,0 +1,80 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Globals:
+  Function:
+    Runtime: python3.12
+    Timeout: 30
+    MemorySize: 128
+    Environment:
+      Variables:
+        CLIENT_ID: kakdbah6jbaaf2lq0cgs369c2
+Resources:
+  FoodMindApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowOrigins:
+        - http://localhost:3000
+        AllowMethods:
+        - '*'
+        AllowHeaders:
+        - '*'
+  AuthFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: AuthFunction
+      Handler: main.lambda_handler
+      Events:
+        Register:
+          Type: HttpApi
+          Properties:
+            Path: /auth/register
+            Method: post
+            ApiId:
+              Ref: FoodMindApi
+        Login:
+          Type: HttpApi
+          Properties:
+            Path: /auth/login
+            Method: post
+            ApiId:
+              Ref: FoodMindApi
+        Confirm:
+          Type: HttpApi
+          Properties:
+            Path: /auth/confirm
+            Method: post
+            ApiId:
+              Ref: FoodMindApi
+        ResendOtp:
+          Type: HttpApi
+          Properties:
+            Path: /auth/resend-otp
+            Method: post
+            ApiId:
+              Ref: FoodMindApi
+        ForgotPassword:
+          Type: HttpApi
+          Properties:
+            Path: /auth/forgot-password
+            Method: post
+            ApiId:
+              Ref: FoodMindApi
+      Layers:
+      - Fn::GetAtt:
+        - AwsSamAutoDependencyLayerNestedStack
+        - Outputs.AuthFunctiona88a6b13DepLayer
+    Metadata:
+      SamResourceId: AuthFunction
+  AwsSamAutoDependencyLayerNestedStack:
+    DeletionPolicy: Delete
+    Metadata:
+      CreatedBy: AWS SAM CLI sync command
+    Properties:
+      TemplateURL: D:\a_Bao_Nguyen\AWS_FOODMIND\app-backend\.aws-sam\auto-dependency-layer\adl_nested_template.yaml
+    Type: AWS::CloudFormation::Stack
+Outputs:
+  ApiUrl:
+    Description: API Gateway endpoint URL
+    Value:
+      Fn::Sub: https://${FoodMindApi}.execute-api.${AWS::Region}.amazonaws.com

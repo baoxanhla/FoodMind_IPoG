@@ -1,0 +1,2227 @@
+[
+    {
+        "FoodID": "f2e36641-3bf9-4414-a3b2-878f2a990ff5",
+        "FoodName": "Thịt bò nạc",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 167.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout"
+        ]
+    },
+    {
+        "FoodID": "005826ff-df3b-4f15-8f96-12bbc5e5c097",
+        "FoodName": "Thịt dê nạc",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 122.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout"
+        ]
+    },
+    {
+        "FoodID": "40156f19-80c5-449a-97e2-aa10c089773e",
+        "FoodName": "Thịt gà ta",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 199.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "e240e92e-56f2-4844-8855-daa0399e210a",
+        "FoodName": "Thịt gà",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 239.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "369bb99b-4ad6-4ee0-bfd5-dd8c468bc9a7",
+        "FoodName": "Thịt heo mỡ",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 394.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Chấn thương nhẹ",
+            "Bong gân",
+            "Đau cơ do vận động",
+            "Trào ngược dạ dày"
+        ]
+    },
+    {
+        "FoodID": "f4a938c0-3d80-467f-923b-cf4cd87e2d25",
+        "FoodName": "Thịt heo nạc",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 139.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "af427bdf-9d5f-4bb9-85de-cec965b958e4",
+        "FoodName": "Thịt heo",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 242.1,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "0b367fcc-f355-46be-afac-b154050b3647",
+        "FoodName": "Thịt bò",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 250.5,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout"
+        ]
+    },
+    {
+        "FoodID": "53ce013d-4146-4290-b5f8-625bd593aead",
+        "FoodName": "Thịt vịt",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 267.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "76b7d507-5b2c-4bd6-b2f9-8808c595f12d",
+        "FoodName": "Thịt chân giò heo",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 230.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "f075f6c8-e84e-41cb-a564-f050f6713dba",
+        "FoodName": "Paste",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 326.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "b2ea4eb6-70a0-4300-9dbf-01451ed4998d",
+        "FoodName": "Chả lụa",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 136.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "fe52f74c-2606-4228-b10d-8d41903b4081",
+        "FoodName": "Nem chua",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 137.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Viêm họng",
+            "Cảm cúm"
+        ]
+    },
+    {
+        "FoodID": "1cab8e06-6b20-4311-8814-81a3a285fab8",
+        "FoodName": "Xúc xích",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 535.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Viêm họng",
+            "Cảm cúm"
+        ]
+    },
+    {
+        "FoodID": "b37168ac-5ab9-49ce-8d79-ae872d2473ab",
+        "FoodName": "Thịt cừu",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 294.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "b9f62aa3-13eb-452b-a700-2ffbdd124585",
+        "FoodName": "Cá bông",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 70.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "1ec0ca04-18dd-456e-ae4c-1c39a5509228",
+        "FoodName": "Cá chép",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 96.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "8689a92b-6717-4222-9aa0-223ab538cf6a",
+        "FoodName": "Cá hồi",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 136.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout"
+        ]
+    },
+    {
+        "FoodID": "ebdfb242-f4d4-4c97-b7cf-8597edb79ba7",
+        "FoodName": "Cá mối",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 124.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "27175197-fa9d-4770-9a12-8fb92b694f7a",
+        "FoodName": "Cá ngừ",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 129.8,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout"
+        ]
+    },
+    {
+        "FoodID": "d1d9339e-1dd8-4125-b8bf-f79f13b36f81",
+        "FoodName": "Cá nục",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 111.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "de954834-2a61-4e3d-a739-c1275c7be344",
+        "FoodName": "Cá rô phi",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 100.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "4b9520d5-ceab-45b1-82ad-c072a8afbf38",
+        "FoodName": "Cá thu",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 166.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "cbc8d56e-aad5-49a5-923d-0a75818c9903",
+        "FoodName": "Cá trích",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 166.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout"
+        ]
+    },
+    {
+        "FoodID": "d4bf7ec5-114b-4650-8c11-b2e06f72e9c0",
+        "FoodName": "Cua biển",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 103.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Gout",
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "cb3252b2-8aa9-41ff-8a50-7f980b9e85ec",
+        "FoodName": "Cua đồng",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 87.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "971a6fdd-dc7c-49e9-bf7f-4391ec935a80",
+        "FoodName": "Ghẹ",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 54.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Gout",
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "585164a9-38e9-4946-aeeb-556d91916e02",
+        "FoodName": "Hến",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 45.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout"
+        ]
+    },
+    {
+        "FoodID": "7c417a17-aa51-4a86-b771-038b9caf49c8",
+        "FoodName": "Mực khô",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 291.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "fd691e35-a94a-4002-910e-205adc0d0e53",
+        "FoodName": "Mực tươi",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 73.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "bd083603-8524-401e-a0ce-2c596331c9aa",
+        "FoodName": "Tôm biển",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 82.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout",
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "f5f66519-776e-41fb-a3ed-39a5eed21553",
+        "FoodName": "Tôm",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 99.2,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Gout",
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "5902b2f5-93e6-462c-a2a9-bc4a66addd3b",
+        "FoodName": "Tôm khô",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 347.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "7392e0ec-1948-485a-91f8-cff02c4482e8",
+        "FoodName": "Trứng gà",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g (2 quả)",
+        "Calorie": 155.1,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "53189d42-f48b-4eb9-9275-8dabf5c38eb4",
+        "FoodName": "Lòng đỏ trứng gà",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 327.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "61392979-4508-4e15-abcf-bbe65f0a5369",
+        "FoodName": "Lòng trắng trứng gà",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 46.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "a75134ba-50d5-434c-9de4-cfe4e58d9f0e",
+        "FoodName": "Trứng vịt",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 184.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "85659bd0-b5a4-421c-a7ad-6492ad996b7e",
+        "FoodName": "Trứng vịt",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "70g (1 quả)",
+        "Calorie": 130.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "8ec11977-6723-495a-af38-5269f1124e4a",
+        "FoodName": "Lòng đỏ trứng vịt",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 364.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "06b85fde-bbce-476f-b8ce-8a971ee82524",
+        "FoodName": "Lòng trắng trứng vịt",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 47.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "5befa124-38b6-4a86-a122-1d30db22079e",
+        "FoodName": "Trứng cút",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 154.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "62a73b55-28fc-41de-87e7-ab1242a45bc3",
+        "FoodName": "Trứng cá",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 171.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "905c6dce-f3b1-4aa0-9947-29fcac78e179",
+        "FoodName": "Trứng cá muối",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 274.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "249c2f2b-a6d5-4c24-8f00-113ea9bcff87",
+        "FoodName": "Trứng vịt lộn",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 182.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "fb12bb58-1f38-4500-8d2c-13c7680cdc4b",
+        "FoodName": "Sữa bò tươi",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 74.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "e31739a1-de70-40f1-8c04-e3ca63521835",
+        "FoodName": "Sữa chua (từ sữa bò)",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 61.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Viêm họng",
+            "Cảm cúm",
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "78a65413-b6c8-49b8-af84-612979de7633",
+        "FoodName": "Sữa chua",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 58.8,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Viêm họng",
+            "Cảm cúm",
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "fe9fa1dc-a1f9-4b8f-99ac-7351a7bcbe3e",
+        "FoodName": "Sữa bột toàn phần",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 494.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "2a4fec4a-ca9c-4a5f-893e-64ffe4a2b5a5",
+        "FoodName": "Sữa bột tách béo",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 357.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "479632e8-6d80-4c87-87be-1e1e09044da6",
+        "FoodName": "Sữa đặc có đường Việt Nam",
+        "Category": "Thành phần",
+        "NutrientGroup": "Đạm động vật",
+        "Unit": "100g",
+        "Calorie": 336.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "b8d92913-466a-4ecb-987f-1475a47d5c17",
+        "FoodName": "Gạo tẻ",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 344.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "870c8ec1-cc15-4f31-abcd-b09361862fe0",
+        "FoodName": "Gạo lứt",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 345.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "bb0c2a7b-f2c3-46bd-a76f-5af3a60c5cbd",
+        "FoodName": "Bánh bao nhân thịt",
+        "Category": "Món ăn",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 219.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "b0a117e5-95f2-4f19-b2de-8a625913dcdf",
+        "FoodName": "Bánh mì",
+        "Category": "Món ăn",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 249.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "e9b27078-a51e-4c27-bdba-66203aaf1879",
+        "FoodName": "Bánh phở",
+        "Category": "Món ăn",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 143.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "fc80d924-8b6e-48c8-9f6d-b047f4bdb903",
+        "FoodName": "Bún",
+        "Category": "Món ăn",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 110.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "377574fb-1ba0-4eba-b7b7-fca442286664",
+        "FoodName": "Mì sợi",
+        "Category": "Món ăn",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 349.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "8e59ddbc-f94c-4efe-b121-d45c514014aa",
+        "FoodName": "Củ sắn",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 152.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "89d1cf46-9ab3-47fd-b130-e18a005777da",
+        "FoodName": "Củ từ",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 92.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "f8e260d2-4e5c-42a1-809e-5c673d0f21c1",
+        "FoodName": "Khoai lang",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 119.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "ed5ba5d3-8de2-4888-876f-b692d41bcb69",
+        "FoodName": "Khoai lang",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 86.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "76fc8a07-8c9b-480f-b0ca-d2e2373e8379",
+        "FoodName": "Khoai môn",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 109.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "ae798798-3a1d-4fdf-aa62-3782408d0102",
+        "FoodName": "Khoai tây",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 93.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "b72dad33-d0fb-4905-a4aa-563484e50878",
+        "FoodName": "Khoai tây",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 77.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "0cb54e8f-fce1-4f9f-b66e-a0db202ccc1c",
+        "FoodName": "Miến dong",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 332.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "293b8d2a-d498-46c3-9496-287f643cdc4a",
+        "FoodName": "Bột sắn dây",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 340.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "25006251-e408-434d-b7e3-97940484f77f",
+        "FoodName": "Bánh phồng tôm chiên",
+        "Category": "Thành phần",
+        "NutrientGroup": "Tinh bột",
+        "Unit": "100g",
+        "Calorie": 676.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Viêm họng",
+            "Cảm cúm",
+            "Trào ngược dạ dày"
+        ]
+    },
+    {
+        "FoodID": "d40c2837-e871-44b3-8d8b-8d421c647c6b",
+        "FoodName": "Bí xanh",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 12.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "402c666c-da59-43c7-af81-f66888fd81ee",
+        "FoodName": "Bí đỏ",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 27.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "99546410-4858-4f5b-83cd-06985fdb69fd",
+        "FoodName": "Cà chua",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 20.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "dc7af51e-3c89-4137-8794-ad2cd296e753",
+        "FoodName": "Cà rốt",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 51.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "84bb93a9-ed2d-4498-8a6d-d0aeab056b13",
+        "FoodName": "Cải bắp",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 29.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "df190647-a6e8-4c27-ba6f-b7579d9f36fb",
+        "FoodName": "Cải thìa",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 17.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "7eb51a5f-e18e-45d0-ad02-558768edcf37",
+        "FoodName": "Cải xanh",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 16.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "5ab0ca57-73ff-453e-9946-4e0846c4a75e",
+        "FoodName": "Cần tây",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 48.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "f5972f4d-c60f-4350-a99d-dc651a5c4f41",
+        "FoodName": "Dưa chuột",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 16.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "bdf3f9cf-0afb-421a-8ca1-a9a89aa1f8e7",
+        "FoodName": "Đậu cô ve",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 73.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "ff21994d-225c-4ea1-bfe2-d3f7d65bf78f",
+        "FoodName": "Hạt sen tươi",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 161.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "fceaacd1-d741-467b-98a7-b1dbbfbf7395",
+        "FoodName": "Mướp",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 17.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "2df04c3e-270e-4373-afd2-69d1612bf07c",
+        "FoodName": "Rau ngót",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 35.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "705b762f-5bcb-4004-b8f3-e804c07810d4",
+        "FoodName": "Súp lơ",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 25.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "b54e3f1b-5c1b-48fc-9705-711228ae214c",
+        "FoodName": "Củ dền",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 53.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "1ad80c79-529f-4af1-aa95-211b7994a920",
+        "FoodName": "Xà lách",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 14.8,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "e2f93d25-9318-4351-a13d-feeb5d24857f",
+        "FoodName": "Khổ qua",
+        "Category": "Thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 17.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "0f39e57f-ac77-4a47-b29a-43c8008af629",
+        "FoodName": "Bưởi",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 30.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "4dd8793b-b9ae-4f55-b93e-33a1c660d34d",
+        "FoodName": "Cam",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 47.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Viêm họng",
+            "Cảm cúm"
+        ]
+    },
+    {
+        "FoodID": "b6dcb176-9a0b-450b-a712-ab75c8187761",
+        "FoodName": "Chanh",
+        "Category": "thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 24.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Viêm họng",
+            "Cảm cúm"
+        ]
+    },
+    {
+        "FoodID": "b6c4dd67-9c16-41a2-8673-c23193843722",
+        "FoodName": "Chôm chôm",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 72.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "15ff245c-2d6c-4bcd-9fa3-09da2a7c2ced",
+        "FoodName": "Chuối tiêu",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 97.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "57bc7517-9831-4a71-9e2b-dc85fb70dd2b",
+        "FoodName": "Chuối",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 88.7,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "d606200d-fb8b-4477-ac5c-7c0d52449e15",
+        "FoodName": "Dâu tây",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 43.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "532b3e75-fedb-44a9-975a-347ad4b50a91",
+        "FoodName": "Dưa hấu",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 30.4,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "34089db0-1180-4712-bb93-da08e1ad822f",
+        "FoodName": "Thơm",
+        "Category": "thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 29.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "07acc5f3-3326-4942-8977-452bb6647e76",
+        "FoodName": "Đu đủ chín",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 36.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "f19b34f2-d5f2-4528-9779-817e17947877",
+        "FoodName": "Đu đủ",
+        "Category": "thành phần",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 42.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "6b986c70-067f-42a1-894f-ebfb5c968d7f",
+        "FoodName": "Lê",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 45.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "d5f50a39-6962-4f6b-9c35-25cf63afd95a",
+        "FoodName": "Lựu",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 70.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "a644e704-0382-4115-9f34-4e32ecbb8a9a",
+        "FoodName": "Táo",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Rau củ quả",
+        "Unit": "100g",
+        "Calorie": 25.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "9a8b22e0-0ed0-42a1-83d3-99bf57570e15",
+        "FoodName": "Bơ",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Chất béo",
+        "Unit": "1 muỗng canh",
+        "Calorie": 102.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "9441f515-7be0-4175-9c2e-a81dc9e173ac",
+        "FoodName": "Dầu đậu nành",
+        "Category": "thành phần",
+        "NutrientGroup": "Chất béo",
+        "Unit": "1 muỗng canh",
+        "Calorie": 120.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "bba8a798-72cf-4f09-85f2-f47ca34ee4a9",
+        "FoodName": "Mỡ heo (nước)",
+        "Category": "thành phần",
+        "NutrientGroup": "Chất béo",
+        "Unit": "1 muỗng canh",
+        "Calorie": 115.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Chấn thương nhẹ",
+            "Bong gân",
+            "Đau cơ do vận động",
+            "Trào ngược dạ dày"
+        ]
+    },
+    {
+        "FoodID": "f7757310-c205-4884-954d-baf54d449e4b",
+        "FoodName": "Bơ thực vật",
+        "Category": "thành phần",
+        "NutrientGroup": "Chất béo",
+        "Unit": "1 muỗng canh",
+        "Calorie": 100.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "aa415712-e5f6-497f-b02c-775cbc61dbd6",
+        "FoodName": "Dầu cám gạo",
+        "Category": "thành phần",
+        "NutrientGroup": "Chất béo",
+        "Unit": "1 muỗng canh",
+        "Calorie": 120.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "c3d5ecba-2328-4957-a3fc-385df847afd6",
+        "FoodName": "Dầu cọ",
+        "Category": "thành phần",
+        "NutrientGroup": "Chất béo",
+        "Unit": "1 muỗng canh",
+        "Calorie": 120.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "7cdf54ab-8635-4dc5-b4c9-ebfa105ac5b8",
+        "FoodName": "Dầu dừa",
+        "Category": "thành phần",
+        "NutrientGroup": "Chất béo",
+        "Unit": "1 muỗng canh",
+        "Calorie": 117.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "5ad28c09-d466-4275-8edf-6e06e2d50b05",
+        "FoodName": "Phô mai",
+        "Category": "thành phần",
+        "NutrientGroup": "Chất béo",
+        "Unit": "100g",
+        "Calorie": 380.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "d061794f-ac9f-4782-88b3-f84e8654329e",
+        "FoodName": "Cùi dừa già",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 368.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "9b926153-0b61-4427-8714-34e5de7698af",
+        "FoodName": "Đậu đen",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 325.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "39bc4767-d9e0-450a-89c8-dbba4d5218c8",
+        "FoodName": "Đậu nành",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 400.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "767768e8-24b6-4fda-ae34-3f61af614f35",
+        "FoodName": "Đậu Hà Lan (hạt)",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 318.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "f9a38db5-22ad-4578-a239-cba3a6154bf8",
+        "FoodName": "Đậu xanh",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 328.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "a25b14d3-d45b-454f-b229-1f1d7d2a3d6b",
+        "FoodName": "Hạt điều",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 605.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "d1193b37-b517-48f9-8268-b0b138195442",
+        "FoodName": "Vừng",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 568.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "2febd40b-a8fc-40f9-95d4-d48f9044ef6e",
+        "FoodName": "Đậu phụ",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 95.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "9034d545-911d-4779-94bd-7c5bb070ecef",
+        "FoodName": "Hạt điều khô, chiên dầu",
+        "Category": "thành phần",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g",
+        "Calorie": 583.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "097fe357-b1a9-4efa-aa9b-d6afe1898b28",
+        "FoodName": "Sữa đậu nành",
+        "Category": "tráng miệng",
+        "NutrientGroup": "Đạm thực vật",
+        "Unit": "100g đậu/lít",
+        "Calorie": 28.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "afb741fa-74db-45a2-8056-76060169c451",
+        "FoodName": "Cơm tấm bì chả",
+        "Category": "món ăn",
+        "NutrientGroup": "Đạm động vật  + tinh bột",
+        "Unit": "1 phần",
+        "Calorie": 600.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "0b2e75ff-976d-4495-a152-f3d48ef91a2a",
+        "FoodName": "Cơm chiên dương châu",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 phần",
+        "Calorie": 530.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Viêm họng",
+            "Cảm cúm",
+            "Trào ngược dạ dày"
+        ]
+    },
+    {
+        "FoodID": "ec1e9f74-e23b-4afb-8935-d30d0d949d63",
+        "FoodName": "Cơm thịt bò xào đậu que",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, đạm thực vật",
+        "Unit": "1 phần",
+        "Calorie": 395.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "ce53b796-d21d-4ad3-a48d-0c2bb748bb90",
+        "FoodName": "Cơm với tép rang",
+        "Category": "món ăn",
+        "NutrientGroup": "Đạm động vật  + tinh bột",
+        "Unit": "1 phần",
+        "Calorie": 300.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "55b8028a-6df8-46db-a456-ffe7778257ab",
+        "FoodName": "Cơm mực xào",
+        "Category": "món ăn",
+        "NutrientGroup": "Đạm động vật  + tinh bột",
+        "Unit": "1 phần",
+        "Calorie": 336.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "3005c7e3-0bee-47fd-8ba0-71dddae079b5",
+        "FoodName": "Cơm thịt kho tàu",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 phần",
+        "Calorie": 650.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "a82cedf3-f087-45f5-8544-46702c5dcf5a",
+        "FoodName": "Cơm canh chua cá hú",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, đạm thực vật",
+        "Unit": "1 phần",
+        "Calorie": 360.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "35dc079a-f499-444a-8111-d902f0ccea6c",
+        "FoodName": "Cơm sườn nướng",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 miếng sườn",
+        "Calorie": 411.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "f6ba94a5-7d42-4d6f-bea5-0139dac77ef9",
+        "FoodName": "Cơm đùi gà rô ti",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 đùi",
+        "Calorie": 550.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "e23aac5f-e868-4c2b-aab1-f28bca4a54cd",
+        "FoodName": "Cơm thịt kho tiêu",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 phần",
+        "Calorie": 400.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "98da1d13-3307-4b48-b34b-fd3b68dfbbe4",
+        "FoodName": "Cơm chay",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, rau củ quả, đạm thực vật",
+        "Unit": "1 phần",
+        "Calorie": 350.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "c62dc8cb-49f6-438e-bdef-9f806b5692af",
+        "FoodName": "Sushi",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "6 miếng (1 cuộn)",
+        "Calorie": 350.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "06f50005-97e4-4f0b-841b-c70687c035f7",
+        "FoodName": "Salad trộn hoa quả",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm thực vật, rau củ quả",
+        "Unit": "100g",
+        "Calorie": 125.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "5fbf3eed-0c95-48f1-9475-4e69c495541b",
+        "FoodName": "Kimbap",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, rau củ quả",
+        "Unit": "100g",
+        "Calorie": 400.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "8f733963-0fdf-411f-91ab-c2388acac63e",
+        "FoodName": "Gà rán",
+        "Category": "món ăn",
+        "NutrientGroup": "Đạm động vật, chất béo",
+        "Unit": "100g (1 miếng)",
+        "Calorie": 221.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Viêm họng",
+            "Cảm cúm",
+            "Chấn thương nhẹ",
+            "Bong gân",
+            "Đau cơ do vận động",
+            "Trào ngược dạ dày"
+        ]
+    },
+    {
+        "FoodID": "8f3a2343-04a8-4788-9669-a54e963013ef",
+        "FoodName": "Tokbokki",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 phần (300g)",
+        "Calorie": 343.0,
+        "Meals": {
+            "Breakfast": false,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "a8185ded-800a-472c-a300-e41a6b30e259",
+        "FoodName": "Trà sữa",
+        "Category": "món ăn",
+        "NutrientGroup": "Đạm thực vật, chất béo",
+        "Unit": "500ml",
+        "Calorie": 608.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Viêm họng",
+            "Cảm cúm",
+            "Trào ngược dạ dày",
+            "Thiếu máu"
+        ]
+    },
+    {
+        "FoodID": "ebfc2d3e-122f-4d81-a447-102eb18cfd74",
+        "FoodName": "Bánh mì chả lụa",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 ổ",
+        "Calorie": 400.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "cd7b9ba9-b39e-4912-a17d-feab4030334f",
+        "FoodName": "Bún bò Huế",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 482.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "05d1eb20-4331-46b3-aa0a-6813b73582aa",
+        "FoodName": "Bún riêu",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 490.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "b703945f-83d0-44d5-bab0-cd02ced4e45f",
+        "FoodName": "Bún mắm",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 480.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "f694b341-6d53-4b60-83fb-296378d8599a",
+        "FoodName": "Phở",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 450.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "6b1311f4-e9c0-44ee-9836-b0fbdcbb8b1d",
+        "FoodName": "Bánh bột lọc",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật",
+        "Unit": "1 đĩa",
+        "Calorie": 487.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "3cecfe7a-49ae-4397-8d01-ad9a28387c32",
+        "FoodName": "Bánh bao",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 cái",
+        "Calorie": 328.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    },
+    {
+        "FoodID": "5584f9e6-e342-4edd-bdc9-d65e7dceb574",
+        "FoodName": "Xôi mặn",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 hộp",
+        "Calorie": 500.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân",
+            "Trào ngược dạ dày"
+        ]
+    },
+    {
+        "FoodID": "d62801a7-91c3-4675-9455-354255c04057",
+        "FoodName": "Cháo lòng",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 412.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "6679d52c-fda2-4c39-a89e-612677fffce7",
+        "FoodName": "Hủ tiếu mì",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 410.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "18f36665-8205-4e05-9256-80fed17d1b8a",
+        "FoodName": "Hủ tiếu xào",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 646.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "f7ad8385-abe6-4db5-bd5d-d4ac79acb811",
+        "FoodName": "Bánh canh cua",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 14.8,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "a03b0ef8-316b-4037-b690-722d86ce0586",
+        "FoodName": "Bún thịt nướng",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 tô",
+        "Calorie": 451.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": true,
+            "Dinner": true
+        },
+        "RestrictedDiseases": []
+    },
+    {
+        "FoodID": "a4d9125e-d887-4716-92f9-3a12e3244385",
+        "FoodName": "Bánh mì sandwich",
+        "Category": "món ăn",
+        "NutrientGroup": "Tinh bột, đạm động vật, chất béo",
+        "Unit": "1 phần vuông",
+        "Calorie": 468.0,
+        "Meals": {
+            "Breakfast": true,
+            "Lunch": false,
+            "Dinner": false
+        },
+        "RestrictedDiseases": [
+            "Béo phì",
+            "Thừa cân"
+        ]
+    }
+]

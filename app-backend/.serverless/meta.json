@@ -1,0 +1,74 @@
+{
+  "D:\\a_Bao_Nguyen\\AWS_FOODMIND\\app-backend\\serverless.yml": {
+    "versionFramework": "4.27.0",
+    "servicePath": "D:\\a_Bao_Nguyen\\AWS_FOODMIND\\app-backend\\serverless.yml",
+    "serviceConfigFileName": "serverless.yml",
+    "service": {
+      "service": "foodmind-backend",
+      "provider": {
+        "name": "aws",
+        "runtime": "python3.12",
+        "region": "ap-southeast-1"
+      },
+      "functions": {
+        "auth": {
+          "handler": "auth/main.lambda_handler",
+          "events": [
+            {
+              "httpApi": {
+                "path": "/auth/register",
+                "method": "post"
+              }
+            },
+            {
+              "httpApi": {
+                "path": "/auth/login",
+                "method": "post"
+              }
+            },
+            {
+              "httpApi": {
+                "path": "/auth/confirm",
+                "method": "post"
+              }
+            },
+            {
+              "httpApi": {
+                "path": "/auth/resend-otp",
+                "method": "post"
+              }
+            },
+            {
+              "httpApi": {
+                "path": "/auth/forgot-password",
+                "method": "post"
+              }
+            }
+          ]
+        }
+      },
+      "plugins": [
+        "serverless-python-requirements"
+      ]
+    },
+    "provider": {
+      "name": "aws",
+      "runtime": "python3.12",
+      "region": "ap-southeast-1"
+    },
+    "error": {
+      "message": "Unauthorized",
+      "stack": "Error: Unauthorized\n    at AccessKeysV2Client.makeRequest (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:298:557828)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async AccessKeysV2Client._get (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:298:556568)\n    at async Authentication.authenticateInteractive (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:721:12248)\n    at async Authentication.authenticateInteractive (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:721:16768)\n    at async Authentication.authenticateInteractive (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:721:16768)\n    at async Authentication.getAuthenticatedData (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:719:11320)\n    at async Authentication.authenticate (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:722:4121)\n    at async TraditionalRunner.resolveVariablesAndAuthenticate (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:731:1394)\n    at async TraditionalRunner.run (file:///C:/Users/Quoc%20Bao/.serverless/releases/4.27.0/package/dist/sf-core.js:1402:28091)"
+    },
+    "serviceRawFile": "service: foodmind-backend\r\n\r\nprovider:\r\n  name: aws\r\n  runtime: python3.12\r\n  region: ap-southeast-1\r\n\r\nfunctions:\r\n  auth:\r\n    handler: auth/main.lambda_handler\r\n    events:\r\n      - httpApi:\r\n          path: /auth/register\r\n          method: post\r\n      - httpApi:\r\n          path: /auth/login\r\n          method: post\r\n      - httpApi:\r\n          path: /auth/confirm\r\n          method: post\r\n      - httpApi:\r\n          path: /auth/resend-otp\r\n          method: post\r\n      - httpApi:\r\n          path: /auth/forgot-password\r\n          method: post\r\n\r\nplugins:\r\n  - serverless-python-requirements",
+    "command": [
+      "deploy"
+    ],
+    "options": {},
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}

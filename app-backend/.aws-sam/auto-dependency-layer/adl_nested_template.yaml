@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS SAM CLI Nested Stack for Auto Dependency Layer Creation
+Metadata:
+  SamCliInfo: 1.150.1
+  key: AWS SAM CLI sync command
+Outputs:
+  AuthFunctiona88a6b13DepLayer:
+    Value:
+      Ref: AuthFunctiona88a6b13DepLayer
+Resources:
+  AuthFunctiona88a6b13DepLayer:
+    Metadata:
+      CreatedBy: AWS SAM CLI sync command
+    Properties:
+      CompatibleRuntimes:
+      - python3.12
+      ContentUri: D:\a_Bao_Nguyen\AWS_FOODMIND\app-backend\.aws-sam\auto-dependency-layer\AuthFunctiona88a6b13DepLayer
+      Description: Auto created layer for dependencies of function AuthFunction
+      LayerName: foodmind-ai6e37f916-AuthFunctiona88a6b13-DepLayer
+      RetentionPolicy: Delete
+    Type: AWS::Serverless::LayerVersion
+Transform: AWS::Serverless-2016-10-31

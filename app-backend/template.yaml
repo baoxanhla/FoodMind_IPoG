@@ -1,0 +1,282 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Timeout: 30
+    MemorySize: 128
+    Environment:
+      Variables:
+        CLIENT_ID: "kakdbah6jbaaf2lq0cgs369c2" # ID App Client Cognito User Pool
+
+Resources:
+  # ============================================================
+  # 1. API GATEWAY
+  # ============================================================
+  FoodMindApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowOrigins:
+          - "*"
+        AllowMethods:
+          - "*"
+        AllowHeaders:
+          - "*"
+
+  # ============================================================
+  # 2. DYNAMODB TABLES
+  # ============================================================
+  FoodMindUsersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: FoodMind-Users
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: sub
+          AttributeType: S
+      KeySchema:
+        - AttributeName: sub
+          KeyType: HASH
+
+  FoodMindHistoryTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: FoodMind-Update-Tdee
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: sub
+          AttributeType: S
+        - AttributeName: updatedAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: sub
+          KeyType: HASH
+        - AttributeName: updatedAt
+          KeyType: RANGE
+
+  FoodMindMealLogsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: FoodMind-MealLogs
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: sub
+          AttributeType: S
+        - AttributeName: dateMeal
+          AttributeType: S
+      KeySchema:
+        - AttributeName: sub
+          KeyType: HASH
+        - AttributeName: dateMeal
+          KeyType: RANGE
+
+  FoodMindFoodsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: FoodMind-Foods
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: FoodID
+          AttributeType: S
+      KeySchema:
+        - AttributeName: FoodID
+          KeyType: HASH
+
+  # ============================================================
+  # 3. LAMBDA FUNCTIONS
+  # ============================================================
+
+  # Lambda Function 1: Xác thực (Auth)
+  AuthFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: auth/
+      Handler: main.lambda_handler
+      Events:
+        Register:
+          Type: HttpApi
+          Properties:
+            Path: /auth/register
+            Method: post
+            ApiId: !Ref FoodMindApi
+        Login:
+          Type: HttpApi
+          Properties:
+            Path: /auth/login
+            Method: post
+            ApiId: !Ref FoodMindApi
+        Confirm:
+          Type: HttpApi
+          Properties:
+            Path: /auth/confirm
+            Method: post
+            ApiId: !Ref FoodMindApi
+        ResendOtp:
+          Type: HttpApi
+          Properties:
+            Path: /auth/resend
+            Method: post
+            ApiId: !Ref FoodMindApi
+        ForgotPassword:
+          Type: HttpApi
+          Properties:
+            Path: /auth/forgot-password
+            Method: post
+            ApiId: !Ref FoodMindApi
+        ConfirmForgotPassword:
+          Type: HttpApi
+          Properties:
+            Path: /auth/confirm-forgot-password
+            Method: post
+            ApiId: !Ref FoodMindApi
+
+  # Lambda Function 2: Profile & TDEE
+  ProfileFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: profile/
+      Handler: main.lambda_handler
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindUsersTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindHistoryTable
+      Environment:
+        Variables:
+          USER_TABLE: !Ref FoodMindUsersTable
+          HISTORY_TABLE: !Ref FoodMindHistoryTable
+      Events:
+        GetProfile:
+          Type: HttpApi
+          Properties:
+            Path: /user/profile
+            Method: get
+            ApiId: !Ref FoodMindApi
+        UpdateProfile:
+          Type: HttpApi
+          Properties:
+            Path: /user/profile
+            Method: post
+            ApiId: !Ref FoodMindApi
+
+  # Lambda Function 3: Recommendation
+  RecommendFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: recommend/
+      Handler: main.lambda_handler
+      Runtime: python3.12
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindUsersTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindMealLogsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindFoodsTable
+      Environment:
+        Variables:
+          USER_TABLE: !Ref FoodMindUsersTable
+          LOGS_TABLE: !Ref FoodMindMealLogsTable
+          FOOD_TABLE: !Ref FoodMindFoodsTable
+      Events:
+        GetRecommend:
+          Type: HttpApi
+          Properties:
+            Path: /recommend
+            Method: get
+            ApiId: !Ref FoodMindApi
+
+  # Lambda Function 4: Log Meals
+  LogMealFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: log_meal/
+      Handler: main.lambda_handler
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindMealLogsTable
+      Environment:
+        Variables:
+          LOGS_TABLE: !Ref FoodMindMealLogsTable
+      Events:
+        SaveLogs:
+          Type: HttpApi
+          Properties:
+            Path: /meals
+            Method: post
+            ApiId: !Ref FoodMindApi
+
+  # Lambda Function 5: Dashboard
+  DashboardFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: dashboard/
+      Handler: main.lambda_handler
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindUsersTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindMealLogsTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindHistoryTable
+      Environment:
+        Variables:
+          USER_TABLE: !Ref FoodMindUsersTable
+          LOGS_TABLE: !Ref FoodMindMealLogsTable
+          HISTORY_TABLE: !Ref FoodMindHistoryTable
+      Events:
+        GetDashboard:
+          Type: HttpApi
+          Properties:
+            Path: /dashboard
+            Method: get
+            ApiId: !Ref FoodMindApi
+            
+  # Lambda Function 6: History
+  HistoryFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: history/
+      Handler: main.lambda_handler
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref FoodMindMealLogsTable
+      Environment:
+        Variables:
+          LOGS_TABLE: !Ref FoodMindMealLogsTable
+      Events:
+        GetHistory:
+          Type: HttpApi
+          Properties:
+            Path: /history
+            Method: get
+            ApiId: !Ref FoodMindApi
+
+  # Lambda Function 7: Analyze Food with Bedrock
+  AnalyzeFoodFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: analyze_food/
+      Handler: main.lambda_handler
+      Runtime: python3.12
+      Timeout: 30
+      Policies:
+        - Statement:
+            - Effect: Allow
+              Action: bedrock:InvokeModel
+              Resource: "*" 
+      Events:
+        AnalyzeFood:
+          Type: HttpApi
+          Properties:
+            Path: /analyze
+            Method: post
+            ApiId: !Ref FoodMindApi
+
+Outputs:
+  ApiUrl:
+    Description: "API Gateway endpoint URL"
+    Value: !Sub "https://${FoodMindApi}.execute-api.${AWS::Region}.amazonaws.com"
