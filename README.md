@@ -1,91 +1,76 @@
 # 🥗 FoodMind_IPoG - Intelligent Nutrition Assistant
 
-**FoodMind** is an application for nutrition tracking and meal
-recommendations powered by Generative AI (Amazon Bedrock).\
-It is built on a fully serverless AWS architecture, ensuring low cost
-and high scalability.
+![AWS Architecture](https://img.shields.io/badge/Architecture-Serverless-orange) ![Next.js](https://img.shields.io/badge/Frontend-Next.js-black) ![Python](https://img.shields.io/badge/Backend-Python_3.12-blue) ![Security](https://img.shields.io/badge/Security-WAF%20%26%20Shield-red)
+
+**FoodMind** is an application for nutrition tracking and meal recommendations powered by Generative AI (Amazon Bedrock). It is built on a fully serverless AWS architecture, ensuring low cost, high scalability, and enterprise-grade security.
 
 ------------------------------------------------------------------------
 
-## System Architecture
+## 🏗 System Architecture
 
--   **Frontend:** Next.js (AWS Amplify)
--   **Backend:** AWS Lambda (Python 3.12) & API Gateway (HTTP API)
--   **Database:** Amazon DynamoDB (On-demand)
--   **Authentication:** Amazon Cognito
--   **AI Engine:** Amazon Bedrock
--   **Foodmind Architecture**
-<img width="7756" height="4324" alt="image" src="https://github.com/user-attachments/assets/e2ca902b-e1a8-4b34-9d62-8eed3940b412" />
+* **Frontend:** Next.js (Hosted on AWS Amplify with CloudFront CDN)
+* **Backend:** AWS Lambda (Python 3.12) & API Gateway (HTTP API)
+* **Database:** Amazon DynamoDB (On-demand)
+* **Authentication:** Amazon Cognito (User Pools)
+* **AI Engine:** Amazon Bedrock
+* **Security & Monitoring:** AWS WAF, Route 53, CloudWatch, SNS
 
 ------------------------------------------------------------------------
 
-## Prerequisites
+## 🚀 Prerequisites
 
 Ensure your computer has the following installed:
 
-1.  **Git** -- to clone the repository\
-2.  **AWS CLI** -- to configure AWS access\
-3.  **AWS SAM CLI** -- to deploy backend infrastructure\
-4.  **Node.js (v18+)** -- to run the frontend\
-5.  **Python (v3.12)** -- to run backend Lambda code
+1. **Git** – to clone the repository and manage version control.
+2. **AWS CLI** – to configure AWS access.
+3. **AWS SAM CLI** – to deploy backend infrastructure.
+4. **Node.js (v18+)** – to run the frontend.
+5. **Python (v3.12)** – to run backend Lambda code.
 
 ------------------------------------------------------------------------
 
-## Installation & Deployment Guide (Step-by-Step)
+## 🛠 Installation & Deployment Guide (Step-by-Step)
 
 ### **Step 1: Clone the Repository**
 
-``` bash
+```bash
 git clone https://github.com/baoxanhla/FoodMind_IPoG.git
 cd FoodMind_IPoG
 ```
 
-------------------------------------------------------------------------
-
 ### **Step 2: Configure AWS Profile**
 
-``` bash
+```bash
 aws configure
 ```
-
 Enter your AWS credentials:
 
--   **AWS Access Key ID**
--   **AWS Secret Access Key**
--   **Default region:** `ap-southeast-1`
--   **Output format:** `json`
-
-------------------------------------------------------------------------
+- **AWS Access Key ID:** [Your Key]
+- **AWS Secret Access Key:** [Your Secret]
+- **Default region:** ap-southeast-1 (Singapore)
+- **Output format:** json
 
 ### **Step 3: Create Amazon Cognito (Manual Setup)**
+You must create a User Pool manually to obtain the App Client ID.
 
-You must create a User Pool to obtain the App Client ID.
+1. Open AWS Console → Search **Cognito**.
+2. Click **Create user pool**.
+3. **Sign-in options:** Select Email.
+4. **User pool name:** `foodmind-user`.
+5. **App client:** Select *Don't generate a client secret*.
+6. Name it **FoodMindWebClient**.
+7. Click **Create user pool**.
 
-1.  Open AWS Console → search **Cognito**\
-2.  Click **Create user pool**\
-3.  Define your application  **Single-page application (SPA)**\
-4.  Name **foodmind-user**
-5.  Configure options **Email**\
-6. Required attributes for sign-up **Email**\
-7. Click **Create user directory**
-
-After creation, copy:
-1. Click on user pool name
--   **User Pool ID**\
-2. From user pool name click App clients
--   **App Client ID**
-
-Save them for later.
-
-------------------------------------------------------------------------
+After creation, save:
+- **User Pool ID**
+- **App Client ID**
 
 ### **Step 4: Deploy Backend (AWS SAM)**
 
-#### 4.1 Update configuration
+#### **4.1 Update configuration**
+Modify `backend/template.yaml`:
 
-Open `backend/template.yaml` and update:
-
-``` yaml
+```yaml
 Globals:
   Function:
     Environment:
@@ -93,95 +78,90 @@ Globals:
         CLIENT_ID: "<YOUR_COGNITO_APP_CLIENT_ID>"
 ```
 
-#### 4.2 Deploy backend
+#### **4.2 Deploy backend**
 
-``` bash
+```bash
 cd backend
 sam build
 sam deploy --guided
 ```
+Provide inputs:
+- Stack name: `foodmind-stack`
+- Region: `ap-southeast-1`
+- Confirm changes: `y`
+- Allow role creation: `y`
 
-Provide:
-
--   Stack name: **foodmind-stack**
--   Region: **ap-southeast-1**
--   Confirm changes: **y**
--   Allow role creation: **y**
-
-After deploy, copy the **ApiUrl** from the Outputs.
-
-------------------------------------------------------------------------
+📌 **After deployment:** Copy the **ApiUrl** from SAM Outputs.
 
 ### **Step 5: Enable Amazon Bedrock Models**
 
-1.  Go to **Amazon Bedrock console**\
-2.  Shift to **Tokyo ap-northeast-1 region**
-3.  Navigate to **Model catalog**\
-4.  Find **deepSeek-V3.1**\
-5.  Coppy **model_id**\
-6.  Changes in the analyze_food/main.py file **model_id**
+1. Go to Amazon Bedrock console.
+2. Switch to **Tokyo** or **US East** if needed.
+3. Navigate to **Model access → Modify model access**.
+4. Enable the models you want (Claude 3 Sonnet, Titan, etc.).
+5. Update `model_id` inside `backend/analyze_food/main.py`.
 
-------------------------------------------------------------------------
+### **Step 6: Setup and Run Frontend (Local)**
 
-### **Step 6: Setup and Run Frontend**
-
-``` bash
+```bash
 cd ../frontend
 npm install
 ```
+Create `.env.local` inside `frontend/`:
 
-Create a `.env.local` file:
+```
+NEXT_PUBLIC_API_URL=https://<your-api-id>.execute-api.ap-southeast-1.amazonaws.com
+NEXT_PUBLIC_AWS_REGION=ap-southeast-1
+NEXT_PUBLIC_USER_POOL_ID=<Your_User_Pool_ID>
+NEXT_PUBLIC_USER_POOL_CLIENT_ID=<Your_Client_ID>
+```
 
-    # API URL from SAM Outputs
-    NEXT_PUBLIC_API_URL=https://<your-api-id>.execute-api.ap-southeast-1.amazonaws.com
+Run frontend:
 
-    # Cognito information
-    NEXT_PUBLIC_AWS_REGION=ap-southeast-1
-    NEXT_PUBLIC_USER_POOL_ID=<Your_User_Pool_ID>
-    NEXT_PUBLIC_USER_POOL_CLIENT_ID=<Your_Client_ID>
-
-Run the frontend:
-
-``` bash
+```bash
 npm run dev
 ```
-Open in browser:\
-**http://localhost:3000**
+Open browser: http://localhost:3000
 
-### **Step 7: Host frontend to amplify**
-1. Create and register a GitLab account. 
-2. Push the frontend to GitLab.
-3. 
-```
+### **Step 7: Host Frontend on AWS Amplify (via GitLab)**
+
+#### **7.1 Push code to GitLab**
+
+```bash
 git init
 git branch -M main
 git add .
 git commit -m "First commit FoodMind"
-git remote add origin https://gitlab.com/USERNAME_CUA_BAN/FoodMind
+git remote add origin https://gitlab.com/YOUR_USERNAME/FoodMind.git
+git push -u origin main
 ```
-4. DEPLOY TO AWS AMPLIFY
-- Go to AWS Console > Search for AWS Amplify.
 
-- Select Create new app (or the big orange button).
+#### **7.2 Connect AWS Amplify**
+- Create new app → Select GitLab.
+- Authorize GitLab.
+- Choose repo **FoodMind**, branch **main**.
+- Enable **My app is a monorepo** → set root to `frontend`.
 
-- On the "Start building" screen, select GitLab. Click Next.
+#### **7.3 Configure Environment Variables**
+Add in Amplify:
+- `NEXT_PUBLIC_API_URL`
+- `NEXT_PUBLIC_USER_POOL_ID`
+- `NEXT_PUBLIC_USER_POOL_CLIENT_ID`
+- `NEXT_PUBLIC_AWS_REGION`
 
-- Authorize: This will take you to the GitLab page. Click the Authorize button to allow AWS to read your code.
+#### **7.4 Deploy**
+Click **Save and Deploy**.
+Your app is live! 🎉
 
-- Repository and branch **gitlab repository**, branch **main**
-- Tick **My app is a monorepo**
-- Environment Variables
-- In the Environment variables section, you must enter 4 variables from the Backend:
+------------------------------------------------------------------------
 
-- NEXT_PUBLIC_API_URL: (API Gateway Link)
+## 🛡️ Enhanced Security & Monitoring (Production Ready)
 
-- NEXT_PUBLIC_USER_POOL_ID: (User Pool ID)
+### **1. Web Application Firewall (AWS WAF)**
+- Rate-based Rule: Blocks IP sending >500 requests/5 min.
+- AWS Managed Rules: Protect against OWASP Top 10.
 
-- NEXT_PUBLIC_USER_POOL_CLIENT_ID: (Client ID)
+### **2. High Availability Monitoring (Route 53 & CloudWatch)**
+- Route 53 Health Checks every 30 seconds.
+- CloudWatch Alarm triggers SNS email if unhealthy.
 
-- NEXT_PUBLIC_AWS_REGION: ap-southeast-1
-
-Check if you have entered everything. Click Next.
-
-5. Deploy
-- It takes about 3-5 minutes, then a green checkmark ✅ appears, indicating the link is the **domain**.
