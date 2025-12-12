@@ -15,7 +15,8 @@
 * **AI Engine:** Amazon Bedrock
 * **Security & Monitoring:** AWS WAF, Route 53, CloudWatch, SNS
 * **Foodmind Architecture**
-  <img width="7756" height="4324" alt="image" src="https://github.com/user-attachments/assets/fcc574b3-2fa4-4344-a63d-cdf000ed1401" />
+<img width="7756" height="4324" alt="image" src="https://github.com/user-attachments/assets/6d7a2d47-b5d4-4c86-a3bc-4ad89ba7d819" />
+
 
 ------------------------------------------------------------------------
 
