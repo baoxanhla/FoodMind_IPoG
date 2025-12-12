@@ -14,6 +14,8 @@
 * **Authentication:** Amazon Cognito (User Pools)
 * **AI Engine:** Amazon Bedrock
 * **Security & Monitoring:** AWS WAF, Route 53, CloudWatch, SNS
+* **Foodmind Architecture**
+  <img width="7756" height="4324" alt="image" src="https://github.com/user-attachments/assets/fcc574b3-2fa4-4344-a63d-cdf000ed1401" />
 
 ------------------------------------------------------------------------
 
