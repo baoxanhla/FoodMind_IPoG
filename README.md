@@ -14,7 +14,7 @@ and high scalability.
 -   **Database:** Amazon DynamoDB (On-demand)
 -   **Authentication:** Amazon Cognito
 -   **AI Engine:** Amazon Bedrock
--   ** Foodmind Architecture**
+-   **Foodmind Architecture**
 <img width="7756" height="4324" alt="image" src="https://github.com/user-attachments/assets/e2ca902b-e1a8-4b34-9d62-8eed3940b412" />
 
 ------------------------------------------------------------------------
